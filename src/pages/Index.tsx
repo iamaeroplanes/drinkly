@@ -96,7 +96,7 @@ const Index = () => {
             {/* Weekly Progress Chart Placeholder */}
             <div className="bg-white rounded-2xl shadow-lg p-6">
                 <h3 className="text-lg font-semibold text-gray-800 mb-4">Weekly Progress</h3>
-                <div className="h-48 bg-gray-100 rounded-xl flex items-center justify-center">
+                <div className="h-48 bg-gray-100 rounded-xl flex items-center flex-col justify-center">
                     <BarChart3 className="w-12 h-12 mx-auto mb-2 opacity-30" />
                     <p>Chart coming soon!</p>
                 </div>
